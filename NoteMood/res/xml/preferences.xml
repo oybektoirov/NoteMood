@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_notifications_maintitle" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_notification"
+            android:summary="@string/pref_enable_notifications_summary"
+            android:title="@string/pref_enable_notifications_title" />
+
+        <Preference
+            android:key="set_time"
+            android:title="@string/pref_set_time_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_other_maintitle" >
+        <Preference
+            android:key="key_share"
+            android:title="@string/pref_share_title" />
+        <Preference
+            android:key="key_rate"
+            android:title="@string/pref_rate_title" />
+        <Preference
+            android:key="key_delete_all_notes"
+            android:title="@string/pref_delete_all_title" />
+        <Preference
+            android:key="key_about"
+            android:title="@string/pref_about_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

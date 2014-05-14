@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">NoteMood</string>
+    <string name="hint">How are you feeling?</string>
+    <string name="button_add_text">Add</string>
+    <string name="imageview_emoticon_description">Emoticons</string>
+    <string name="button_add_description">Add buton</string>
+
+    <!-- Action bar (title for XML) -->
+    <string name="action_delete_all_title">Delete all</string>
+    <string name="action_share_app_title">Share the app</string>
+    <string name="action_rate_app_title">Rate the app</string>
+    <string name="action_settings_title">Settings</string>
+
+    <!-- Action bar (context-menu) -->
+    <string name="menu_copy_title">Copy</string>
+    <string name="menu_share_title">Share</string>
+    <string name="menu_delete_title">Delete</string>
+
+    <!-- Delete-all dialog -->
+    <string name="dialog_delete_all_title">Delete all notes</string>
+    <string name="dialog_delete_all_positive">Yes</string>
+    <string name="dialog_delete_all_negative">No</string>
+    <string name="dialog_delete_all_message">Are you sure about this?</string>
+
+    <!-- Settings [Notifications] -->
+    <string name="pref_notifications_maintitle">Notifications</string>
+    <string name="pref_enable_notifications_summary">Be notified to take a note of your mood</string>
+    <string name="pref_enable_notifications_title">Receive notification</string>
+    <string name="pref_set_time_title">Set Time</string>
+
+    <!-- Settings [Other] -->
+    <string name="pref_other_maintitle">Other</string>
+    <string name="pref_share_title">Share application</string>
+    <string name="pref_rate_title">Rate application</string>
+    <string name="pref_delete_all_title">Delete all notes</string>
+    <string name="pref_about_title">About</string>
+    <string name="pref_about_message">NoteMood lets you take notes of your mood. 
+        It is a great app to help you keep track of your mood notes. \n \n© NoteMood 2014</string>
+    <string name="pref_about_close">Close</string>
+    <string name="title_activity_mood_about">About</string>
+
+</resources>
